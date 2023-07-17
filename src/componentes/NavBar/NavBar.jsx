@@ -1,21 +1,32 @@
 import './NavBar.css'
-import CartWidget from '../CartWidget/CartWidget'
+import CartWidget from '../CartWidget/CartWidget.jsx'
+import { Link, NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+
+const NavBar = () => {
     return (
-        <header>
+        <header><Link to="/">
             <h1>Tienda Holistica</h1>
+        </Link>
             <nav>
                 <ul>
-                    <li>Sahumerios</li>
-                    <li>Velas Aromaticas</li>
-                    <li>Aceites Escenciales</li>
+                    <li>
+                        <NavLink to="/">Inicio</NavLink>
+                        </li>
+                    <li>
+                        <NavLink to="/Sahumerios">Sahumerios</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/Velas Aromaticas">Velas Aromaticas</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="Aceites Escenciales">Aceites Escenciales</NavLink>
+                    </li>
                 </ul>
             </nav>
-            <CartWidget/>
-
         </header>
-    )
-}
 
-export default Navbar
+    );
+};
+
+export default NavBar
