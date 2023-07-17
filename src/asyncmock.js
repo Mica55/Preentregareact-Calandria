@@ -5,7 +5,7 @@ const misProductos = [
 
 ]
 
-const getProductos = () => {
+export const getProductos = () => {
     return new Promise ((resolve) => {
         setTimeout(() => {
             resolve(misProductos);
