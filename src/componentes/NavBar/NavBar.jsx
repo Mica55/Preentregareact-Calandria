@@ -15,13 +15,13 @@ const NavBar = () => {
                         <NavLink to="/">Inicio</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/categoria/2">Sahumerios</NavLink>
+                        <NavLink to="/categoria/sahumerios">Sahumerios</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/categoria/3">Velas Aromaticas</NavLink>
+                        <NavLink to="/categoria/velasaromaticas">Velas Aromaticas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/categoria/4">Aceites Escenciales</NavLink>
+                        <NavLink to="/categoria/aceitesescenciales">Aceites Escenciales</NavLink>
                     </li>
                     <li>
                         <NavLink to="/cart"><CartWidget />

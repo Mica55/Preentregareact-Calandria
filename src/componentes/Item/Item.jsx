@@ -1,20 +1,15 @@
-import React from 'react'
 
-const Item = ({id,nombre,precio,img}) => {
+
+const Item = ({ id, nombre, precio, img }) => {
   return (
-    <div>
-        <img src= {img} alt="" />
-        <h3>Nombre:{nombre}</h3>
-        <p>Precio:{precio}</p>
-        <p> ID:{id}</p>
-        <button>Ver detalles</button>
-
-
-
-
-
-
+    <div className="card mt-2" style={{ width: '18rem' }} >
+      <img src={img} alt="" className="card-img-top" />
+      <h3 className="card-text">Nombre:{nombre}</h3>
+      <p className="card-text">Precio:{precio}</p>
+      <p className="card-text"> ID:{id}</p>
+      <button className="btn btn-primary">Ver detalles</button>
     </div>
+
 
   )
 }
