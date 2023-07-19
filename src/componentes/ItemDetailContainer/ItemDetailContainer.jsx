@@ -4,17 +4,17 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
-    const [prodcuto, setProducto]= useState(null);
-    const {idItem} = useParams();
-    useEffect(() => {
-        getUnProducto(idItem)
-        .then(res => setProducto(res))
-    }, [idItem])
-  return (
-    <div>
-        <ItemDetail {...prodcuto}/>
-    </div>
-  )
+  const [prodcuto, setProducto]= useState({});
+  const {idItem} = useParams();
+  useEffect(() => {
+      getUnProducto(idItem)
+      .then(res => setProducto(res))
+  }, [idItem])
+return (
+  <div>
+      <ItemDetail {...prodcuto}/>
+  </div>
+)
 }
 
 export default ItemDetailContainer
