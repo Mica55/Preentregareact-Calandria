@@ -16,12 +16,18 @@ const ItemListContainer = (props) => {
 
   }, [idCategoria])
   return (
-    <>
-      <h2>{props.greeting}</h2>
-      <ItemList productos={productos} />
+    <div className="container">
+      <div className="row">
+        <h2>Productos</h2>
+        <ItemList productos={productos}/>
+      </div>
 
 
-    </>
+
+    </div>
+
+
+
 
   )
 }

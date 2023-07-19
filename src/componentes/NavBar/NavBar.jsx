@@ -7,12 +7,13 @@ const NavBar = () => {
     return (
         <header><Link to="/">
             <h1>Tienda Holistica</h1>
+
         </Link>
             <nav>
                 <ul>
                     <li>
                         <NavLink to="/">Inicio</NavLink>
-                        </li>
+                    </li>
                     <li>
                         <NavLink to="/categoria/2">Sahumerios</NavLink>
                     </li>
@@ -21,6 +22,10 @@ const NavBar = () => {
                     </li>
                     <li>
                         <NavLink to="/categoria/4">Aceites Escenciales</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/cart"><CartWidget />
+                        </NavLink>
                     </li>
                 </ul>
             </nav>

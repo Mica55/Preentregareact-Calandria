@@ -1,7 +1,7 @@
 const misProductos = [
-    { id: "1", nombre: "Sahumerios", precio: 500, img: "/imagenes/sahumerios.png", idCat: "2" },
-    { id: "2", nombre: "Velas Aromaticas", precio: 850, img: "/imagenes/velas.jpg", idCat: "3" },
-    { id: "3", nombre: "Aceites Escenciales", precio: 600, img: "/imgenes/aceitesescenciales.jpg", idCat: "4" },
+    { id: "1", nombre: "Sahumerios", precio: 500, img: "/imagenes/sahumerios.png", idCat: "sahumerios" },
+    { id: "2", nombre: "Velas Aromaticas", precio: 850, img: "/imagenes/velas.jpg", idCat: "velasaromaticas" },
+    { id: "3", nombre: "Aceites Escenciales", precio: 600, img: "/imagenes/aceitesescenciales.jpg", idCat: "aceitesescenciales" },
 
 ]
 
