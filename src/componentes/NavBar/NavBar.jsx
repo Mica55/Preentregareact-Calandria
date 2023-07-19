@@ -14,13 +14,13 @@ const NavBar = () => {
                         <NavLink to="/">Inicio</NavLink>
                         </li>
                     <li>
-                        <NavLink to="/Sahumerios">Sahumerios</NavLink>
+                        <NavLink to="/categoria/2">Sahumerios</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Velas Aromaticas">Velas Aromaticas</NavLink>
+                        <NavLink to="/categoria/3">Velas Aromaticas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="Aceites Escenciales">Aceites Escenciales</NavLink>
+                        <NavLink to="/categoria/4">Aceites Escenciales</NavLink>
                     </li>
                 </ul>
             </nav>
